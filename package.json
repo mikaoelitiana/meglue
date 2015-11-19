@@ -4,7 +4,8 @@
   "description": "Multiplateform online video player",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electon ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/mikaoelitiana/meglue",
   "dependencies": {
     "electron": "^0.4.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
   }
 }
